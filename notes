@@ -47,3 +47,25 @@ then type the filename
 Ignoreing a folder for Git
 type /<folder name>
 
+Branches
+To create a branch
+$ git branch <name>
+To go to the branch
+$ git checkout <name>
+
+To merge (while on master)
+$ git merge login
+
+
+///// Remote Repository
+
+Open github, then click new repository
+add this to gitbash 
+git remote add origin https://github.com/GabrielZeusReyes/myappsample.git
+then to push 
+git push -u origin master
+
+
+To clone
+Open the folder in gitbash
+$ git clone <link>
