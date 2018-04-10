@@ -10,8 +10,6 @@ Git bash is a command tool
 Basic Commands on Local repository
 $ git init // Initialize Local Git Repository and to use git commands
 $ git add <file> // Add File(s) To Index or Staging area
-   ex. git add *.html
-   	   git add . // Add all the files in the folder
 $ git rm --cached <file> // Remove File(s) to the Index or Staging Area
 $ git status // Check Status Of Working Tree
 $ git commit // Commit Changes In Index
@@ -26,3 +24,15 @@ $ git pull //Pull Latest From Remote Repository
 $ git clone //Clone Repository Into A New Directory
 
 ** To open the gitbash on the folder, right click the folder, thenn click Git Bash here
+
+Adding files to the Staging:
+$ git add <file> // Add File(s) To Index or Staging area
+   ex. git add *.html
+   	   git add . // Add all the files in the folder
+
+Commiting files 
+$ git commit // Commit Changes In Index
+	** it will go to the VIM editor, then press I to insert something
+	** remove the # infront of the text 'Initial commit'
+	** press escape
+	** then type :wq
