@@ -11,6 +11,7 @@ Basic Commands on Local repository
 $ git init // Initialize Local Git Repository and to use git commands
 $ git add <file> // Add File(s) To Index or Staging area
 $ git rm --cached <file> // Remove File(s) to the Index or Staging Area
+$ git rm -r --cached . // Fixing .gitignore files
 $ git status // Check Status Of Working Tree
 $ git commit // Commit Changes In Index
 & git --version // Gets the version
@@ -43,6 +44,6 @@ Ignoring file for Git
 create first a .gitignore file using touch .gitignore
 then type the filename
 
-Ignoreing a filder for Gi
+Ignoreing a folder for Git
 type /<folder name>
 
