@@ -36,3 +36,13 @@ $ git commit // Commit Changes In Index
 	** remove the # infront of the text 'Initial commit'
 	** press escape
 	** then type :wq
+
+$ git commit -m 'Your comment here'
+
+Ignoring file for Git
+create first a .gitignore file using touch .gitignore
+then type the filename
+
+Ignoreing a filder for Gi
+type /<folder name>
+
