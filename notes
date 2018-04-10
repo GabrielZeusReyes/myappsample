@@ -1,0 +1,28 @@
+GIT
+ is a Version Control System (VCS) for tracking changes in computer files
+ can have multiple developers in a different network
+ can determine who made and who changes
+ can revert back anytime
+ local & remote repository
+
+Git bash is a command tool
+
+Basic Commands on Local repository
+$ git init // Initialize Local Git Repository and to use git commands
+$ git add <file> // Add File(s) To Index or Staging area
+   ex. git add *.html
+   	   git add . // Add all the files in the folder
+$ git rm --cached <file> // Remove File(s) to the Index or Staging Area
+$ git status // Check Status Of Working Tree
+$ git commit // Commit Changes In Index
+& git --version // Gets the version
+& git config --global user.name 'Gabriel Zeus Reyes'
+& git config --global user.email 'gabrielzeusreyes@gmail.com'
+& touch index.html // creates a file named 'index.html'
+
+Remote repository Commands
+$ git push //Push To Remote Repository such as Github
+$ git pull //Pull Latest From Remote Repository
+$ git clone //Clone Repository Into A New Directory
+
+** To open the gitbash on the folder, right click the folder, thenn click Git Bash here
